@@ -279,6 +279,20 @@ section.works {
   gap: 0.66rem;
 }
 
+@media screen and (min-width: 375px) {
+  section.header {
+    padding-top: 1.562rem;
+  }
+
+  div.headline {
+    background-image: url("/images/header-shapes-mobile.png");
+    background-size: contain;
+    background-clip: initial;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+
 @media screen and (min-width: 768px) {
   section.header {
     padding-top: 1.562rem;
