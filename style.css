@@ -81,7 +81,9 @@ div.headline {
   height: calc(100vh - 7rem);
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -149,6 +151,7 @@ section.works {
 }
 
 .tonic h1 {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -160,6 +163,7 @@ section.works {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -175,10 +179,11 @@ section.works {
 }
 
 .tonic p {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.6rem;
+  font-size: 15px;
+  line-height: 24px;
   color: #344563;
 }
 
@@ -188,11 +193,12 @@ section.works {
 }
 
 .tonic ul li {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.03em;
   color: #6070ff;
   background-color: #ebebff;
   padding: 0.266rem 0.8rem;
@@ -202,6 +208,7 @@ section.works {
 
 .tonic div a {
   display: inline-block;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -233,6 +240,7 @@ section.works {
 }
 
 .about .resume-link {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -249,20 +257,25 @@ section.works {
   gap: 0.8rem;
 }
 
-.about .modals .option {
+.about .modals .lang {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid #f7f7f9;
   padding-bottom: 0.66rem;
 }
 
-.about .modals .option span {
+.about .modals li .lang span {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.33rem;
   line-height: 24px;
   display: flex;
   align-items: center;
+}
+
+.about .modals li {
+  padding: 10px;
 }
 
 .about .modals ul {
