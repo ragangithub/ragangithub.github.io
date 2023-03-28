@@ -305,7 +305,7 @@ section.works {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  background-image: url("/images/contact\ form\ shapes-mobile.svg");
+  background-image: url("/images/contact-form-shapes-mobile.svg");
   background-size: contain;
   background-clip: initial;
   background-repeat: no-repeat;
@@ -371,6 +371,17 @@ form button {
   padding: 12px 16px;
   background: #fff;
   border-radius: 8px;
+  border: none;
+}
+
+form button:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+form button:active {
+  color: green;
 }
 
 @media screen and (min-width: 375px) {
