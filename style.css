@@ -69,7 +69,7 @@ nav {
 }
 
 div.headline {
-  background-image: url("/images/header-shapes-mobile.png");
+  background-image: url("./images/header-shapes-mobile.png");
   background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
@@ -295,7 +295,7 @@ section.works {
 /* contact */
 .contact {
   background-color: #6070ff;
-  margin-top: 15.2rem;
+  margin-top: 11rem;
   border-top-left-radius: 7.33rem;
   padding: 20px 0 100px 0;
 }
@@ -391,7 +391,7 @@ button:active {
   }
 
   div.headline {
-    background-image: url("/images/header-shapes-mobile.png");
+    background-image: url("./images/header-shapes-mobile.png");
     background-size: contain;
     background-clip: initial;
     background-repeat: no-repeat;
@@ -405,7 +405,7 @@ button:active {
   }
 
   div.headline {
-    background-image: url("/images/header-shapes-mobile.png");
+    background-image: url("./images/header-shapes-mobile.png");
     background-size: contain;
     background-clip: initial;
     background-repeat: no-repeat;
@@ -438,10 +438,110 @@ button:active {
     padding: 12% 10%;
     padding-bottom: 4%;
     background-size: contain;
-    background-image: url("/images/Header-bg@2x.png");
+    background-image: url("./images/Header-bg@2x.png");
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+  }
+
+  /* WORKS SECTION */
+  section.works {
+    margin: 7% 6%;
+  }
+
+  section.works .tonic {
+    display: flex;
+    gap: 46px;
+  }
+
+  section.works .tonic.reverse {
+    flex-direction: row-reverse;
+  }
+
+  section.works .tonic .desktop {
+    height: 448px;
+  }
+
+  .tonic .mobile {
+    display: none;
+  }
+
+  section.works .tonic .desktop,
+  .right {
+    display: block;
+    flex-basis: 50%;
+  }
+
+  .tonic img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0.8rem;
+  }
+
+  /* ABOUT SECTION */
+  .about {
+    flex-direction: row;
+    padding: 7% 6%;
+    margin-top: 142px;
+  }
+
+  .about h3 {
+    color: #091e42;
+  }
+
+  .about .left {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .about .left .icons {
+    margin-top: 14px;
+  }
+
+  .about .modals {
+    flex-shrink: 2;
+    flex-basis: 60%;
+    gap: 1rem;
+  }
+
+  .about .modals .lang {
+    padding-bottom: 46px;
+  }
+
+  .about .modals li .lang span {
+    color: #344563;
+  }
+
+  .about .modals .lang.selected {
+    border-bottom: 0;
+  }
+
+  .about .modals li .technologies {
+    flex-direction: row;
+  }
+
+  /* CONTACT SECTION */
+  .contact div {
+    width: 93%;
+    margin: 0 auto;
+    background-image: url("./images/contact-form-background-shapes@2x.png");
+    background-size: 100% 100%;
+    background-clip: initial;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 12% 25%;
+    height: 800px;
+  }
+
+  .contact .check form ul li input {
+    border-radius: 0;
+    padding: 12px;
+  }
+
+  .contact div .button {
+    text-align: center;
   }
 }
