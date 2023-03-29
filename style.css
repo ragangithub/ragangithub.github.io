@@ -292,6 +292,113 @@ section.works {
   gap: 0.66rem;
 }
 
+/* contact */
+.contact {
+  background-color: #6070ff;
+  margin-top: 15.2rem;
+  border-top-left-radius: 7.33rem;
+  padding: 20px 0 100px 0;
+}
+
+.contact div {
+  padding: 7.6rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background-image: url("./images/contact-form-shapes-mobile.svg");
+  background-size: contain;
+  background-clip: initial;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 690px;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact .check p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  padding-bottom: 52px;
+}
+
+.contact .check form ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact .check form ul li input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+}
+
+form ul li textarea {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+  padding: 10px;
+  color: #b3bac5;
+}
+
+form button {
+  color: #396df2;
+  background-color: #fff;
+  border: 1px #6070ff solid;
+  height: 48px;
+  width: 126px;
+  left: 0;
+  top: 12px;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+button:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+
+@media screen and (min-width: 375px) {
+  section.header {
+    padding-top: 1.562rem;
+  }
+
+  div.headline {
+    background-image: url("/images/header-shapes-mobile.png");
+    background-size: contain;
+    background-clip: initial;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+
 @media screen and (min-width: 375px) {
   section.header {
     padding-top: 1.562rem;
