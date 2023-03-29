@@ -305,7 +305,7 @@ section.works {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  background-image: url("/images/contact-form-shapes-mobile.svg");
+  background-image: url("./images/contact-form-shapes-mobile.svg");
   background-size: contain;
   background-clip: initial;
   background-repeat: no-repeat;
@@ -359,29 +359,30 @@ form ul li textarea {
 }
 
 form button {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-  padding: 12px 16px;
-  background: #fff;
+  color: #396df2;
+  background-color: #fff;
+  border: 1px #6070ff solid;
+  height: 48px;
+  width: 126px;
+  left: 0;
+  top: 12px;
   border-radius: 8px;
-  border: none;
-}
-
-form button:hover {
-  background-color: blue;
-  color: white;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
   cursor: pointer;
 }
 
-form button:active {
-  color: green;
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+button:active {
+  color: #fff;
+  background-color: #2230d2;
 }
 
 @media screen and (min-width: 375px) {
